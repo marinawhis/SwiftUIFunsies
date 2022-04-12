@@ -3,7 +3,7 @@ Learning SwiftUI currently, working with DetailsPro and figuring out how to go f
 
 ## Next Achievements:
 - [ ] Creating componenents  
-- [ ] Creating native topbar  
+- [x] Creating native topbar  
 - [ ] Bottom navigation  
   - [ ] with active states  
 - [ ] Scaling images  
