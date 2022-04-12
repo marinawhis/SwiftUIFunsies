@@ -4,11 +4,10 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List() {
-                
                 Section() {                NavigationLink (destination: RandomView()) {
                     HStack {
                         Image("unknown")
-                            .frame(width: 48, height: 48)
+                            .frame(width: 56, height: 56)
                         //TODO: image gotta be fitting in the circle
                         .background(.orange)
                         .clipShape(RoundedRectangle(cornerRadius: 100))
@@ -112,7 +111,8 @@ struct ContentView: View {
                 }
                 
             }
-            
+            .navigationBarTitle("Einstellungen")
+            Spacer()
         }
         
     }
