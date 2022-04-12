@@ -6,4 +6,4 @@ Learning SwiftUI currently, working with DetailsPro and figuring out how to go f
 - [x] Creating native topbar  
 - [ ] Bottom navigation  
   - [ ] with active states  
-- [ ] Scaling images  
+- [x] Scaling images  
