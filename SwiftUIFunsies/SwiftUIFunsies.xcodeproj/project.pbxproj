@@ -12,6 +12,7 @@
 		0DC5F1062805706700160E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5F1052805706700160E60 /* Assets.xcassets */; };
 		0DC5F1092805706700160E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5F1082805706700160E60 /* Preview Assets.xcassets */; };
 		0DFB4C0028057D5A00406BE8 /* RandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB4BFF28057D5A00406BE8 /* RandomView.swift */; };
+		0DFB4C042805C19F00406BE8 /* listIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB4C032805C19F00406BE8 /* listIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0DC5F1052805706700160E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC5F1082805706700160E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DFB4BFF28057D5A00406BE8 /* RandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomView.swift; sourceTree = "<group>"; };
+		0DFB4C032805C19F00406BE8 /* listIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +55,9 @@
 		0DC5F1002805706500160E60 /* SwiftUIFunsies */ = {
 			isa = PBXGroup;
 			children = (
-				0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */,
-				0DC5F1032805706500160E60 /* ContentView.swift */,
-				0DFB4BFF28057D5A00406BE8 /* RandomView.swift */,
 				0DC5F1052805706700160E60 /* Assets.xcassets */,
+				0DFB4C022805C01800406BE8 /* Views */,
+				0DFB4C012805C00E00406BE8 /* Modifiers */,
 				0DC5F1072805706700160E60 /* Preview Content */,
 			);
 			path = SwiftUIFunsies;
@@ -68,6 +69,24 @@
 				0DC5F1082805706700160E60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0DFB4C012805C00E00406BE8 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				0DFB4C032805C19F00406BE8 /* listIcon.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		0DFB4C022805C01800406BE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */,
+				0DC5F1032805706500160E60 /* ContentView.swift */,
+				0DFB4BFF28057D5A00406BE8 /* RandomView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +161,7 @@
 			files = (
 				0DFB4C0028057D5A00406BE8 /* RandomView.swift in Sources */,
 				0DC5F1042805706500160E60 /* ContentView.swift in Sources */,
+				0DFB4C042805C19F00406BE8 /* listIcon.swift in Sources */,
 				0DC5F1022805706500160E60 /* SwiftUIFunsiesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
