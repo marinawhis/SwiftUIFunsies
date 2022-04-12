@@ -7,8 +7,9 @@ struct ContentView: View {
                 Section() {                NavigationLink (destination: RandomView()) {
                     HStack {
                         Image("unknown")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
                             .frame(width: 56, height: 56)
-                        //TODO: image gotta be fitting in the circle
                         .background(.orange)
                         .clipShape(RoundedRectangle(cornerRadius: 100))
                         .foregroundColor(.white)
@@ -112,7 +113,6 @@ struct ContentView: View {
                 
             }
             .navigationBarTitle("Einstellungen")
-            Spacer()
         }
         
     }
