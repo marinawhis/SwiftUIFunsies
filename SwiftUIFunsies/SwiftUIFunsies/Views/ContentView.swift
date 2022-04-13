@@ -7,12 +7,7 @@ struct ContentView: View {
                 Section() {                NavigationLink (destination: RandomView()) {
                     HStack {
                         Image("unknown")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 56, height: 56)
-                            .background(.orange)
-                            .clipShape(RoundedRectangle(cornerRadius: 100))
-                            .foregroundColor(.white)
+                            .avatarStyle()
                         
                         VStack {
                             Text("Marina")

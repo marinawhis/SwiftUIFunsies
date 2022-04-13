@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9826142806B603003CB880 /* profileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826132806B603003CB880 /* profileIcon.swift */; };
+		0D9826162806B9AB003CB880 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826152806B9AB003CB880 /* SettingsView.swift */; };
 		0DC5F1022805706500160E60 /* SwiftUIFunsiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */; };
 		0DC5F1042805706500160E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5F1032805706500160E60 /* ContentView.swift */; };
 		0DC5F1062805706700160E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5F1052805706700160E60 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D9826132806B603003CB880 /* profileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileIcon.swift; sourceTree = "<group>"; };
+		0D9826152806B9AB003CB880 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		0DC5F0FE2805706500160E60 /* SwiftUIFunsies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFunsies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFunsiesApp.swift; sourceTree = "<group>"; };
 		0DC5F1032805706500160E60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0DFB4C032805C19F00406BE8 /* listIcon.swift */,
+				0D9826132806B603003CB880 /* profileIcon.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 				0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */,
 				0DC5F1032805706500160E60 /* ContentView.swift */,
 				0DFB4BFF28057D5A00406BE8 /* RandomView.swift */,
+				0D9826152806B9AB003CB880 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,7 +168,9 @@
 				0DFB4C0028057D5A00406BE8 /* RandomView.swift in Sources */,
 				0DC5F1042805706500160E60 /* ContentView.swift in Sources */,
 				0DFB4C042805C19F00406BE8 /* listIcon.swift in Sources */,
+				0D9826162806B9AB003CB880 /* SettingsView.swift in Sources */,
 				0DC5F1022805706500160E60 /* SwiftUIFunsiesApp.swift in Sources */,
+				0D9826142806B603003CB880 /* profileIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
