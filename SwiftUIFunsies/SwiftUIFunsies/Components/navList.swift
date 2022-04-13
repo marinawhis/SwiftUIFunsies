@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ContentView: View {
+struct navList: View {
     var body: some View {
         NavigationView {
             List() {
@@ -10,6 +10,7 @@ struct ContentView: View {
                             .avatarStyle()
                         
                         VStack {
+                            //TODO: bf wants me to make component here and learn how to pass arguments yikes
                             Text("Marina")
                                 .frame(maxWidth:.infinity, alignment: .leading)
                             Text("+49 2116 3555661")
@@ -88,12 +89,11 @@ struct ContentView: View {
             }
             .navigationBarTitle("Einstellungen")
         }
-        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct navList_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        navList()
     }
 }

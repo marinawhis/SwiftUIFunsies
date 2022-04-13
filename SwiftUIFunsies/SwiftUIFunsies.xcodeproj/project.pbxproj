@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		0D9826142806B603003CB880 /* profileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826132806B603003CB880 /* profileIcon.swift */; };
 		0D9826162806B9AB003CB880 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826152806B9AB003CB880 /* SettingsView.swift */; };
+		0D9826192806CFDB003CB880 /* navList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826182806CFDB003CB880 /* navList.swift */; };
+		0D98261B2806D1AF003CB880 /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D98261A2806D1AF003CB880 /* navBar.swift */; };
 		0DC5F1022805706500160E60 /* SwiftUIFunsiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */; };
-		0DC5F1042805706500160E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5F1032805706500160E60 /* ContentView.swift */; };
 		0DC5F1062805706700160E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5F1052805706700160E60 /* Assets.xcassets */; };
 		0DC5F1092805706700160E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5F1082805706700160E60 /* Preview Assets.xcassets */; };
 		0DFB4C0028057D5A00406BE8 /* RandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB4BFF28057D5A00406BE8 /* RandomView.swift */; };
@@ -20,9 +21,10 @@
 /* Begin PBXFileReference section */
 		0D9826132806B603003CB880 /* profileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileIcon.swift; sourceTree = "<group>"; };
 		0D9826152806B9AB003CB880 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0D9826182806CFDB003CB880 /* navList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navList.swift; sourceTree = "<group>"; };
+		0D98261A2806D1AF003CB880 /* navBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
 		0DC5F0FE2805706500160E60 /* SwiftUIFunsies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFunsies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFunsiesApp.swift; sourceTree = "<group>"; };
-		0DC5F1032805706500160E60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DC5F1052805706700160E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC5F1082805706700160E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DFB4BFF28057D5A00406BE8 /* RandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomView.swift; sourceTree = "<group>"; };
@@ -40,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9826172806CFBA003CB880 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0D9826182806CFDB003CB880 /* navList.swift */,
+				0D98261A2806D1AF003CB880 /* navBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		0DC5F0F52805706500160E60 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +73,7 @@
 				0DC5F1052805706700160E60 /* Assets.xcassets */,
 				0DFB4C022805C01800406BE8 /* Views */,
 				0DFB4C012805C00E00406BE8 /* Modifiers */,
+				0D9826172806CFBA003CB880 /* Components */,
 				0DC5F1072805706700160E60 /* Preview Content */,
 			);
 			path = SwiftUIFunsies;
@@ -88,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */,
-				0DC5F1032805706500160E60 /* ContentView.swift */,
 				0DFB4BFF28057D5A00406BE8 /* RandomView.swift */,
 				0D9826152806B9AB003CB880 /* SettingsView.swift */,
 			);
@@ -166,10 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DFB4C0028057D5A00406BE8 /* RandomView.swift in Sources */,
-				0DC5F1042805706500160E60 /* ContentView.swift in Sources */,
+				0D9826192806CFDB003CB880 /* navList.swift in Sources */,
 				0DFB4C042805C19F00406BE8 /* listIcon.swift in Sources */,
 				0D9826162806B9AB003CB880 /* SettingsView.swift in Sources */,
 				0DC5F1022805706500160E60 /* SwiftUIFunsiesApp.swift in Sources */,
+				0D98261B2806D1AF003CB880 /* navBar.swift in Sources */,
 				0D9826142806B603003CB880 /* profileIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
