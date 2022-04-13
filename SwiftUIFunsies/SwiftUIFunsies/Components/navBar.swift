@@ -1,21 +1,12 @@
-//
-//  navBar.swift
-//  SwiftUIFunsies
-//
-//  Created by Marina Djundjas on 13.04.22.
-//
-
 import SwiftUI
 
 struct navBar: View {
     var body: some View {
-        NavigationView
-        {        HStack {
-            NavigationLink(destination: SettingsView()){
+        TabView {
+            SettingsView()
+            .tabItem {
                 Image(systemName: "gearshape")
             }
-        }
-            
         }
     }
 }

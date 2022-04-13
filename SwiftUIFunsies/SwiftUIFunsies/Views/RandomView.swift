@@ -4,7 +4,13 @@ import SwiftUI
 
 struct RandomView: View {
     var body: some View {
-        Text("Das ist die Random View!")
+        VStack{
+        Text("Hier könnte Ihre Werbung stehen!")
+                .font(.largeTitle)
+            Image("Doge-PNG-Image-Transparent")
+                .resizable()
+                .scaledToFit()
+        }
     }
 }
 
