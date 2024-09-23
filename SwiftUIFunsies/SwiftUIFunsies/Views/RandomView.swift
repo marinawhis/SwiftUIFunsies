@@ -1,5 +1,3 @@
-
-
 import SwiftUI
 
 struct RandomView: View {
@@ -19,3 +17,4 @@ struct RandomView_Previews: PreviewProvider {
         RandomView()
     }
 }
+

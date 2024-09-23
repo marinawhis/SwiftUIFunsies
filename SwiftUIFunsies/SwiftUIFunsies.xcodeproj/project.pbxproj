@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1B63212CA16690009BFE47 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 0D1B63202CA16690009BFE47 /* SplineRuntime */; };
 		0D9826142806B603003CB880 /* profileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826132806B603003CB880 /* profileIcon.swift */; };
 		0D9826162806B9AB003CB880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826152806B9AB003CB880 /* ContentView.swift */; };
 		0D9826192806CFDB003CB880 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826182806CFDB003CB880 /* SettingsView.swift */; };
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1B63212CA16690009BFE47 /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,9 @@
 				Base,
 			);
 			mainGroup = 0DC5F0F52805706500160E60;
+			packageReferences = (
+				0D1B631F2CA16690009BFE47 /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = 0DC5F0FF2805706500160E60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -377,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D1B631F2CA16690009BFE47 /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D1B63202CA16690009BFE47 /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D1B631F2CA16690009BFE47 /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0DC5F0F62805706500160E60 /* Project object */;
 }
