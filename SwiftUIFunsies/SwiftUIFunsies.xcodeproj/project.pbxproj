@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D1B63212CA16690009BFE47 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 0D1B63202CA16690009BFE47 /* SplineRuntime */; };
+		0D1B63232CA18E67009BFE47 /* SplineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B63222CA18E67009BFE47 /* SplineView.swift */; };
 		0D9826142806B603003CB880 /* profileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826132806B603003CB880 /* profileIcon.swift */; };
 		0D9826162806B9AB003CB880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826152806B9AB003CB880 /* ContentView.swift */; };
 		0D9826192806CFDB003CB880 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9826182806CFDB003CB880 /* SettingsView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D1B63222CA18E67009BFE47 /* SplineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplineView.swift; sourceTree = "<group>"; };
 		0D9826132806B603003CB880 /* profileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileIcon.swift; sourceTree = "<group>"; };
 		0D9826152806B9AB003CB880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D9826182806CFDB003CB880 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		0DFB4C022805C01800406BE8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D1B63222CA18E67009BFE47 /* SplineView.swift */,
 				0DC5F1012805706500160E60 /* SwiftUIFunsiesApp.swift */,
 				0DFB4BFF28057D5A00406BE8 /* RandomView.swift */,
 				0D9826152806B9AB003CB880 /* ContentView.swift */,
@@ -180,6 +183,7 @@
 			files = (
 				0DFB4C0028057D5A00406BE8 /* RandomView.swift in Sources */,
 				0D9826192806CFDB003CB880 /* SettingsView.swift in Sources */,
+				0D1B63232CA18E67009BFE47 /* SplineView.swift in Sources */,
 				0DFB4C042805C19F00406BE8 /* listIcon.swift in Sources */,
 				0D9826162806B9AB003CB880 /* ContentView.swift in Sources */,
 				0DC5F1022805706500160E60 /* SwiftUIFunsiesApp.swift in Sources */,

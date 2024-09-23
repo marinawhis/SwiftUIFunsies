@@ -8,21 +8,14 @@ struct ContentView: View {
                 .tabItem {
                     VStack {
                         Image(systemName: "questionmark")
-                        Text("unknown")
+                        Text("1")
                     }
                 }
             RandomView()
                 .tabItem {
                     VStack {
                         Image(systemName: "questionmark")
-                        Text("unknown")
-                    }
-                }
-            RandomView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "questionmark")
-                        Text("unknown")
+                        Text("2")
                     }
                 }
             SettingsView()
@@ -32,17 +25,6 @@ struct ContentView: View {
                     Text("Einstellungen")
                     }
                 }
-        }
-        // fetching from cloud
-        let url = URL(string: "https://build.spline.design/oNkeq9WLqaywUryxoGrm/scene.splineswift")!
-
-        // fetching from local
-        // let url = Bundle.main.url(forResource: "scene", withExtension: "splineswift")!
-
-        if #available(iOS 16.0, *) {
-            SplineView(sceneFileURL: url).ignoresSafeArea(.all)
-        } else {
-            // Fallback on earlier versions
         }
     }
 }
