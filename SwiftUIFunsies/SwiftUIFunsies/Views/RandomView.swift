@@ -9,7 +9,7 @@ struct RandomView: View {
                 .resizable()
                 .scaledToFit()
             
-            SplineAnimationView().frame(height:125)
+            SplineAnimationView().frame(width: 300)
         }
     }
 }

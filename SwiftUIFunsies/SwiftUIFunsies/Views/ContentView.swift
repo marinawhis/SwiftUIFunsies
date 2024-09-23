@@ -11,7 +11,7 @@ struct ContentView: View {
                         Text("1")
                     }
                 }
-            RandomView()
+            CallAnimationView()
                 .tabItem {
                     VStack {
                         Image(systemName: "questionmark")
